@@ -30,5 +30,4 @@ public class ECartCoreApplicationTest {
     final String schema = dataSource.getConnection().getCatalog();
     assertEquals("ecart", schema);
   }
-
 }
